@@ -1,5 +1,6 @@
 {
   "enabledPlugins": {
-    "plugin-dev@claude-plugins-official": true
+    "plugin-dev@claude-plugins-official": true,
+    "indonesia-korporat-output-style@indonesia-korporat-output-style": true
   }
 }

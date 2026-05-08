@@ -7,7 +7,9 @@ Punten, ini adalah Claude Code plugin yang automatically applies authentic Indon
 Ijin kasih quickstart setup buat Indonesian corporate communication style:
 
 ```bash
-/plugin install https://github.com/oniharnantyo/indonesia-korporat-output-style
+claude plugin marketplace add https://github.com/oniharnantyo/indonesia-korporat-output-style
+
+claude plugin install indonesia-korporat-output-style@indonesia-korporat-output-style
 ```
 
 ## How It Works
@@ -22,33 +24,6 @@ Jadi instead of harus remember buat minta Indonesian corporate style, Claude oto
 - **Integrates naturally** - Terms are used where they fit, not forced
 
 Style-nya applied consistently throughout the entire session tanpa manual activation. Just start Claude dan communicate naturally dalam Indonesian corporate style.
-
-## Installation
-
-### Install
-
-Punten, untuk instalasi via marketplace, ikuti tiga steps ini:
-
-```bash
-# 1. Push ke GitHub
-git push origin main
-
-# 2. Register Marketplace
-claude plugin marketplace add https://github.com/oniharnantyo/indonesia-korporat-output-style
-
-# 3. Install Plugin
-claude plugin install indonesia-korporat-output-style@onihantyo
-```
-
-## Verify Installation
-
-Punten, setelah installation, verify the plugin is loaded:
-
-```bash
-/plugin list
-```
-
-You should see `indonesia-korporat-output-style` di list of installed plugins.
 
 ## The Basic Style
 
