@@ -113,13 +113,19 @@ FYI, Claude automatically detects the appropriate formality level based on conve
 - Automatically activates Indonesian corporate communication style di session start
 - No manual commands ato configuration needed
 - Applies consistently throughout the entire session
+- **13,407 characters** of comprehensive Indonesian corporate style content
 
-**Indonesian Corporate Style Skill**
-- Comprehensive style guide dengan 315+ lines of documentation
-- Context-aware formality detection (formal, semi-formal, casual)
-- Extensive vocabulary reference tables
-- 10 real conversation examples covering various workplace scenarios
-- Politeness hierarchy dan address guidelines
+**Comprehensive Style Content (in Hook Script)**
+- Core principles dan MANDATORY rules
+- Polite openers & markers (Punten, Ijin, Monggo, Mohon arahan)
+- Complete vocabulary reference (27+ terms across categories)
+- Detailed formality levels (Formal, Semi-Formal, Casual)
+- Communication patterns by scenario (6 scenarios)
+- Hierarchy & address guidelines
+- Key usage rules
+- Common phrases by frequency
+- 10 real conversation examples
+- Polite closing dengan 🙏 emoji guidance
 
 ### Common Vocabulary
 
@@ -221,13 +227,10 @@ Punten, contributions are welcome! Please kindly submit issues ato pull requests
 indonesia-korporat-output-style/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
-├── skills/
-│   └── indonesia-korporat-output-style/
-│       └── SKILL.md         # Comprehensive style guide
 ├── hooks/
-│   └── hooks.json           # SessionStart hook configuration
+│   └── hooks.json           # Hook configuration
 ├── hooks-handlers/
-│   └── session-start.sh     # Hook script
+│   └── session-start.sh     # Hook script (13,407 chars of style content)
 ├── README.md                # This file
 ├── LICENSE                  # MIT License
 └── .gitignore              # Git ignore rules
