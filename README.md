@@ -25,13 +25,24 @@ Style-nya applied consistently throughout the entire session tanpa manual activa
 
 ## Installation
 
-### Option 1: Install from GitHub (Recommended)
+### Quick Install (Recommended)
 
-Ijin install langsung dari GitHub menggunakan Claude Code plugin command:
+Punten, untuk instalasi tercepat via marketplace, ikuti tiga steps ini:
 
 ```bash
-/plugin install https://github.com/oniharnantyo/indonesia-korporat-output-style
+# 1. Push ke GitHub
+git push origin main
+
+# 2. Register Marketplace
+claude plugin marketplace add https://github.com/oniharnantyo/indonesia-korporat-output-style
+
+# 3. Install Plugin
+claude plugin install indonesia-korporat-output-style@onihantyo
 ```
+
+### Option 1: Install from GitHub
+
+Ijin install langsung dari GitHub menggunakan Claude Code plugin command:
 
 ### Option 2: Clone and Install Locally
 
