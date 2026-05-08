@@ -25,9 +25,9 @@ Style-nya applied consistently throughout the entire session tanpa manual activa
 
 ## Installation
 
-### Quick Install (Recommended)
+### Install
 
-Punten, untuk instalasi tercepat via marketplace, ikuti tiga steps ini:
+Punten, untuk instalasi via marketplace, ikuti tiga steps ini:
 
 ```bash
 # 1. Push ke GitHub
@@ -38,51 +38,6 @@ claude plugin marketplace add https://github.com/oniharnantyo/indonesia-korporat
 
 # 3. Install Plugin
 claude plugin install indonesia-korporat-output-style@onihantyo
-```
-
-### Option 1: Install from GitHub
-
-Ijin install langsung dari GitHub menggunakan Claude Code plugin command:
-
-### Option 2: Clone and Install Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/oniharnantyo/indonesia-korporat-output-style.git
-
-# Install the plugin
-cd indonesia-korporat-output-style
-claude plugin install
-```
-
-### Option 3: Manual Installation
-
-```bash
-# Clone atau download the plugin
-git clone https://github.com/oniharnantyo/indonesia-korporat-output-style.git
-
-# Navigate ke your project directory
-cd /your/project
-
-# Create symbolic link ke plugin
-ln -s /path/to/indonesia-korporat-output-style .claude-plugin
-
-# Atau copy plugin directory
-cp -r /path/to/indonesia-korporat-output-style .claude-plugin
-```
-
-### Option 4: Global Installation
-
-```bash
-# Copy ke global plugins directory
-cp -r /path/to/indonesia-korporat-output-style ~/.claude/plugins/indonesia-korporat-output-style
-```
-
-### Option 5: Using Plugin Directory Flag
-
-```bash
-# Start Claude Code dengan plugin directory
-claude --plugin-dir /path/to/indonesia-korporat-output-style
 ```
 
 ## Verify Installation
@@ -121,12 +76,14 @@ FYI, Claude automatically detects the appropriate formality level based on conve
 ### Components
 
 **SessionStart Hook**
+
 - Automatically activates Indonesian corporate communication style di session start
 - No manual commands ato configuration needed
 - Applies consistently throughout the entire session
 - **13,407 characters** of comprehensive Indonesian corporate style content
 
 **Comprehensive Style Content (in Hook Script)**
+
 - Core principles dan MANDATORY rules
 - Polite openers & markers (Punten, Ijin, Monggo, Mohon arahan)
 - Complete vocabulary reference (27+ terms across categories)
