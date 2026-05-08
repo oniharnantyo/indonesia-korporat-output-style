@@ -1,0 +1,20 @@
+{
+  "name": "indonesia-korporat-output-style",
+  "description": "Indonesian corporate communication style with mixed Indo-English vocabulary, context-aware formality levels, and workplace-appropriate phrasing. Perfect for professionals working in Indonesian corporate environments who want authentic business communication style.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oni Harnantyo"
+  },
+  "homepage": "https://github.com/oniharnantyo/indonesia-korporat-output-style",
+  "license": "MIT",
+  "keywords": [
+    "indonesian",
+    "corporate",
+    "business",
+    "communication",
+    "professional",
+    "workplace",
+    "bahasa-indonesia",
+    "output-style"
+  ]
+}
